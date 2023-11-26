@@ -9,6 +9,8 @@ To operationalize the monocular vision depth estimation project, we deployed it 
 We constructed a model based on U-net with ResNet as the encoder. To adapt it to the hardware, we made some adjustments. To address redundancy issues, we reduced the number of convolutional kernels and applied a divide-and-conquer approach to them. Additionally, to resolve operator incompatibility, we independently created corresponding operators.
 > This project implements the U-Net Convolutional Neural Network with a ResNet encoder (pre-trained on imagenet weights) on the NYU-Depth v2 dataset and achieved a soft accuracy of 83% on the test set.
 
+![image](https://github.com/kaamava/Mono-depth-Estimation-on-Develop-Board/assets/106901273/33f39141-21e7-47ca-8ffa-5432fefa03a2)
+
 ## Tech used:
 - TensorFlow 2.0.0
 - Python 3.5.6
