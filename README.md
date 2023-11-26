@@ -32,6 +32,7 @@ The model used in this experiment is based on U-Net, constructing a deep learnin
 The model we trained is in PyTorch, and PyTorch is not compatible with inference on the Atlas 200DK. To meet the deployment requirements on the development board, we chose the model conversion route: PyTorch → ONNX → Caffe → OM. This pathway minimizes the losses introduced during model conversion, aligns well with the design requirements of the development board, and is better suited to the hardware environment.
 
 The multi-step transformation of computer vision models is crucial for realizing hardware applications.
+
 **The details of the model introduction and conversion are presented in the Monocular-Board.pdf.**
 
 ## Output
